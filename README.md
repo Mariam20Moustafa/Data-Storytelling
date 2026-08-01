@@ -93,5 +93,8 @@ Data-Storytelling/
 ## Team Members
 
 - Mariam Mostafa
-- (Add team members here)
+- Jana Khaled
+- Ahmed Sayed
+- Sara Sayed
+- Ashraqat Muhammed
 
