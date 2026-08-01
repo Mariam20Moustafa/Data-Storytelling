@@ -97,7 +97,7 @@ Data-Storytelling/
 
 ## Dashboard
 
-![Dashboard](Images/dashboard.png)
+![Dashboard](Images/Dashboard.png)
 
 ## Team Members
 
