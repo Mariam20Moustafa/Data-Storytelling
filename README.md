@@ -102,7 +102,7 @@ Data-Storytelling/
 
 ## Team Members
 
-- Mariam Mostafa
+- Mariam Moustafa
 - Jana Khaled
 - Ahmed Sayed
 - Sarah Sayed
