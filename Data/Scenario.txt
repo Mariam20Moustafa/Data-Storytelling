@@ -1,0 +1,23 @@
+
+A telecommunications company needs a database to keep track of its customers, the services they subscribe to, their billing and payment details, support interactions, and retention efforts.
+
+Customers:Each customer has a unique Customer ID, a gender, an age, a senior citizen flag, a partner status, and a dependents status. A customer also has a satisfaction score and a predicted customer lifetime value (CLTV).
+
+Customer Locations: Each customer has a primary residence location. The location includes a country, a state, a city, a ZIP code, a latitude, and a longitude. Each ZIP code area also has an estimated population.
+
+Service Subscriptions: The company offers multiple service categories. Each subscription record tracks whether a customer has phone service, multiple lines, internet service (DSL, Fiber optic, or None), online security, online backup, device protection, tech support, streaming TV, streaming movies, streaming music, and unlimited data. Each subscription also records the customer's average monthly GB download usage and average monthly long distance charges.
+
+Accounts & Billing: Each customer has an account with a tenure (in months), a contract type (Month-to-month, One year, or Two year), a paperless billing preference, and a payment method. The system records the monthly charge, total charges to date, total refunds, total extra data charges, and total long distance charges.
+
+Marketing & Referrals: The company tracks marketing offers accepted by customers (e.g., Offer A, B, C, D, E, or None). The system also records whether a customer has referred a friend and the total number of referrals made to date.
+
+Customer Status & Churn:The system tracks each customer's current status (Joined, Stayed, or Churned). For churned customers, the system records a churn label (Yes/No), a churn score (0–100), a churn category (Attitude, Competitor, Dissatisfaction, Price, or Other), and the specific churn reason. A customer can have only one status record per fiscal quarter.
+
+
+Relationships:
+- A Customer has exactly one Location (one-to-one).
+- A Customer has one set of Service Subscriptions at a time (one-to-one).
+- A Customer has one Account & Billing record (one-to-one).
+- A Customer has one Marketing & Referrals record (one-to-one).
+- A Customer can have multiple Customer Status & Churn records over time (one-to-many), with one record per fiscal quarter.
+
