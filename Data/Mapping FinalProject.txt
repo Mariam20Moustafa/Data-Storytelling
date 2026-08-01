@@ -1,0 +1,36 @@
+
+1. Customer
+
+Customer (Customer_ID)
+PK: Customer_ID
+
+
+ 2. Demographics
+
+Demographics (Customer_ID, Gender, Age, Under_30, Senior_Citizen,Married, Dependents, Number_of_Dependents)
+PK: Customer_ID
+FK: Customer_ID → Customer(Customer_ID)(1:1 relationship → FK also serves as PK, no separate ID needed)
+
+3. Location
+
+Location (Location_ID, Customer_ID, Address, City, Zip_Code, Latitude, Longitude)
+PK: Location_ID
+FK: Customer_ID → Customer(Customer_ID)
+FK: Zip_Code → Population(Zip_Code)
+
+4. Population
+Population (ID, Zip_Code, Population)
+PK: ID
+Candidate Key: Zip_Code (unique, referenced by Location)
+
+ 5. Services
+
+Services (Service_ID, Customer_ID, Referred_a_Friend, Number_of_Referrals,Tenure_in_Months, Offer, Phone_Service, Avg_Monthly_Long_Distance_Charges,Multiple_Lines, Internet_Service, Internet_Type, Avg_Monthly_GB_Download,Online_Security, Online_Backup, Device_Protection_Plan, Premium_Tech_Support,Streaming_TV, Streaming_Movies, Streaming_Music, Unlimited_Data,Contract, Paperless_Billing, Payment_Method, Monthly_Charge,Total_Charges, Total_Refunds, Total_Extra_Data_Charges,Total_Long_Distance_Charges, Total_Revenue)
+PK: Service_ID
+FK: Customer_ID → Customer(Customer_ID)
+
+ 6. Status
+
+Status (Status_ID, Customer_ID, Satisfaction_Score, Customer_Status,Churn_Label, Churn_Score, CLTV)
+PK: Status_ID
+FK: Customer_ID → Customer(Customer_ID)
