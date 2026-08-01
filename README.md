@@ -99,6 +99,8 @@ Data-Storytelling/
 
 ![Dashboard](Images/Dashboard.png)
 
+---
+
 ## Team Members
 
 - Mariam Mostafa
