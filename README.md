@@ -95,6 +95,6 @@ Data-Storytelling/
 - Mariam Mostafa
 - Jana Khaled
 - Ahmed Sayed
-- Sara Sayed
+- Sarah Sayed
 - Ashraqat Muhammed
 
