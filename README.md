@@ -89,9 +89,13 @@ Data-Storytelling/
 - Offer personalized retention offers for customers at high risk of churn.
 
 ---
-## Dashboard
+## ERD
 
-### Power BI Dashboard
+![ERD](Images/ERD.png)
+
+---
+
+## Dashboard
 
 ![Dashboard](Images/dashboard.png)
 
